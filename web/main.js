@@ -4,12 +4,7 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDNdXZlHN5wpWf1QJXXWFyGDhc8CT_q91w",
-  authDomain: "cam1-6f545.firebaseapp.com",
-  projectId: "cam1-6f545",
-  storageBucket: "cam1-6f545.appspot.com",
-  messagingSenderId: "1049946107514",
-  appId: "1:1049946107514:web:612463724b23f4e93fd5c3"
+  //use your firebase API
 };
 
 if (!firebase.apps.length) {
